@@ -16,5 +16,5 @@ The main aim of the project was to develop an empirical model of flash smelting 
 ## Approach
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/HARDCODED-PL/CuValley/tree/main/data/stanet.pn">
+  <img width="460" height="300" src="https://github.com/HARDCODED-PL/CuValley/blob/main/data/stanet.png">
 </p>
