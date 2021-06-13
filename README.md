@@ -18,3 +18,19 @@ The main aim of the project was to develop an empirical model of flash smelting 
 <p align="center">
   <img width="460" height="300" src="https://github.com/HARDCODED-PL/CuValley/blob/main/data/stanet.png">
 </p>
+
+## Results
+
+<center>
+
+| Metryki 	| Dane rzeczywiste 	| StaNet 	|
+|:-:	|:-:	|:-:	|
+| Odchylenie standardowe 	| 1.929 	| 0.833 	|
+| Wariancja 	| 3.721 	| 0.694 	|
+| Rozstęp 	| 16.418 	| 8.364 	|
+
+</center>
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/HARDCODED-PL/CuValley/blob/main/data/stabilized_results.png">
+</p>
