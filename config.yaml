@@ -1,0 +1,24 @@
+environment:
+  hmg_model: './models/hmg.pkl'
+  disturbed_variables_model: './models/disturbed_variables_model.pkl'
+
+regulator:
+  controller_model: './models/dummy_operator.pkl'
+
+  constraints:
+    air_flow:
+      air_max_regulation: [1900, 3500]
+      air_max_step: 80 # 800
+      air_min_time: 1 # 10
+    oxygen_content:
+      oxy_max_regulation: [65, 81]
+      oxy_max_step: 0.8 # 2
+      oxy_min_time: 60 # 150
+    air_blow:
+      puff_max_regulation: [40, 70]
+      puff_max_step: 2 # 10
+      puff_min_time: 1 # 5
+    dust:
+      dust_max_regulation: [13, 27]
+      dust_max_step: 13
+      dust_min_time: 300
